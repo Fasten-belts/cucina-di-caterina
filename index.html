@@ -4,43 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Footer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <footer>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/logo.svg" alt="logo sign" />
-          Cucina
-        </a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Store</a></li>
-          <li><a href="">Recipes</a></li>
-          <li><a href="">Gallery</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/r4o93oNZcgkJMxAP7"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Elvia Elviaveien 1, 1234 Oslo</a
-            >
-          </li>
-          <li>
-            <a href="mailto:willie.jennings@example.com"
-              >willie.jennings@example.com</a
-            >
-          </li>
-        </ul>
-      </address>
-      <p>
-        By using this website, you agree to the
-        <a href="">Terms of Service</a> and <a href="">Privacy Policy</a>
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <a class="logo link" href="./index.html">
+            <img src="./images/logo.svg" alt="logo sign" />
+            cucina
+          </a>
+          <ul class="footer-nav-list list">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="">Home</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="">Store</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="">Recipes</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link link" href="">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-list-item">
+              <a
+                class="address-link link"
+                href="https://goo.gl/maps/r4o93oNZcgkJMxAP7"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Elvia Elviaveien 1, 1234 Oslo</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a
+                class="address-link link"
+                href="mailto:willie.jennings@example.com"
+                >willie.jennings@example.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <p class="footer-text">
+          By using this website, you agree to the
+          <a class="footer-text-link link" href="">Terms of Service</a> and
+          <a class="footer-text-link link" href="">Privacy Policy</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
